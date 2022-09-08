@@ -7,6 +7,16 @@ const statementSchema = new Schema({
     volume: String,
     fees: String,
     transactionsNumber: String,
+    debitPercentage: String,
+    debitFees: String,
+    merchantDebitFees: String,
+    creditPercentage: String,
+    creditFees: String,
+    merchantCreditFees:String,
+    basisPts: String,
+    transactionFee: String,
+    debitValue:String,
+    creditValue: String,
 
 })
 
