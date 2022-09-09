@@ -21,10 +21,10 @@ const statementSchema = new Schema({
 
     basisPts: String,
     transactionFee: String,
-    
+
     debitValue:String,
     creditValue: String,
-
+    uid : String
 })
 
 

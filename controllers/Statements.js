@@ -37,7 +37,7 @@ function index(req, res){
 }
 
 function create(req, res){
-
+    console.log(req)
     Statement.create(req.body, function(err, statement){
         res.status(201).json(statement)
     })
